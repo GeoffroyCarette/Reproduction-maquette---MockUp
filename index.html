@@ -15,51 +15,64 @@
 
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid background_nav">
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top"
-                        alt="">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <ul>
-                        <li><a href="">Accueil</a></li>
-                        <li><a href="">Section 1</a></li>
-                        <li><a href="">Boutique</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#"><img src="./media/logo.svg" alt="" class="img-fluid w-25"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="link_style nav-item nav-link" href="#">Accueil</a>
+                            <a class="link_style nav-item nav-link" href="#">Section 1</a>
+                            <a class="link_style nav-item nav-link" href="#">Boutique</a>
+                            <a class="link_style nav-item nav-link" href="#">Contact</a>
+                        </div>
+                    </div>
                 </nav>
             </div>
         </div>
     </header>
-
     <main>
         <section id="image_presentation">
             <div class="container-fluid">
-                <img src="" alt="">
-                <button class="btn">Boutique</button>
+                <button class="btn boutton_boutique mr-5 float-right"><span style="color: #58585c; font-size: 2rem; font-weight: bold;">Boutique</span></button>
             </div>
         </section>
         <section id="ingredients">
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="force">
-                            <h2>Décuple ta force</h2>
-                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec sa
-                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster tes
-                                performances !</p>
-                        </div>
-                        <div class="naturel">
-                            <h2>100% Naturel</h2>
-                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec sa
-                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster tes
-                                performances !</p>
-                        </div>
-                        <div class="sucre">
-                            <h2>Sans sucre</h2>
-                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec sa
-                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster tes
-                                performances !</p>
+                        <div class="col d-flex">
+                            <div class="force">
+                                    <img src="./media/dumbbell-solid.svg" alt="" class="icone_size">
+                                <h2>Décuple ta force</h2>
+                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                    sa
+                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                    tes
+                                    performances !</p>
+                            </div>
+                            <div class="naturel">
+                                    <img src="./media/globe-africa-solid.svg" alt="" class="icone_size">
+                                <h2>100% Naturel</h2>
+                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                    sa
+                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                    tes
+                                    performances !</p>
+                            </div>
+                            <div class="sucre">
+                                    <img src="./media/no_sugar.svg" alt="" class="icone_size">
+                                <h2>Sans sucre</h2>
+                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                    sa
+                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                    tes
+                                    performances !</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -96,7 +109,6 @@
             </div>
         </section>
     </main>
-
     <footer>
         <div class="container-fluid">
             <div class="container">
@@ -122,7 +134,6 @@
                 </div>
             </div>
         </div>
-
     </footer>
 </body>
 
