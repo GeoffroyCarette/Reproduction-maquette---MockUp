@@ -24,7 +24,6 @@ nav {
 
 .link_style:hover {
     color: #0f4d72!important;
-    font-weight: bold;
 }
 
 #image_presentation {
@@ -103,6 +102,10 @@ input[type=mail], [type=text]{
     color: white!important;
 }
 
+textarea {
+    color: white!important;
+}
+
 #formulaire {
     background-color: #414345;
 }
@@ -151,4 +154,86 @@ input[type=mail], [type=text]{
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+footer {
+    background-color: #2a2a2a;
+}
+
+.footer_titre {
+    color: white;
+}
+
+.icones {
+    color: white;
+    font-size: 4.5rem;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+hr {
+   border-color: white;
+}
+
+.logo_footer {
+    height: 3rem;
+    padding-left: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.liste_after::after {
+    content: "|";
+    color: white;
+    margin: 1rem;
+}
+
+.link_footer {
+    color: white;
+}
+
+.link_footer:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.button_assistance {
+    background-color: #006cab;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+}
+
+.button_assistance:hover {
+    transition: 0.15s;
+    box-shadow: none;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+    transition: 0.15s;
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+    transition: 0.15s;
+}
+
+.fa-twitter-square:hover {
+    color: #00acee;
+    transition: 0.15s;
+}
+
+.fa-instagram:hover {
+    color: #3f729b;
+    transition: 0.15s;
+}
+
+.padding_right_link_footer{
+    padding-right: 15px;
 }

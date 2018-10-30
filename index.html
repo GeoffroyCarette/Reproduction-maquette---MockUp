@@ -19,7 +19,7 @@
         <div class="container-fluid background_nav">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark">
-                    <a class="navbar-brand" href="#"><img src="./media/logo.svg" alt="" class="img-fluid w-25"></a>
+                    <a class="navbar-brand" href="#"><img src="./media/logo.svg" alt="" class="img-fluid w-25 d-none d-sm-none d-md-none d-lg-block d-xl-block"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -83,7 +83,8 @@
                     <div class="row">
                         <div class="newsletter col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
                             <h3 class="mt-4 mb-4 titre_news">Inscrivez-vous à la <span style="font-weight: bold; color: white;">Newsletter</span></h3>
-                            <p class="mb-4 news_texte w-75 mx-auto">Des offres spéciales, des tests de produits et de nombreuses
+                            <p class="mb-4 news_texte w-75 mx-auto">Des offres spéciales, des tests de produits et de
+                                nombreuses
                                 informations utiles vous
                                 attendent pour que vous puissiez profiter au maximum de vous-même.</p>
                             <form action="" class="mb-5">
@@ -105,9 +106,9 @@
                                 <div class="d-flex flex-column align-items-center">
                                     <input type="text" placeholder="Votre nom*" class="w-75 mb-4 form_style">
                                     <input type="mail" placeholder="Votre email*" class="w-75 mb-4 form_style">
-                                    <input type="text" placeholder="Votre message*" class="w-75 mb-4 form_style_textarea">
+                                    <textarea name="" id="" class="w-75 mb-4 form_style_textarea" placeholder="Votre message*"></textarea>
                                 </div>
-                                <button type="submit" class="w-25 mb-5 style_submit_button"><span style="color: white; font-size: 1.5rem; font-weight: bold;">Envoyer</span></button>
+                                <button type="submit" class="w-25 mb-5 style_submit_button btn"><span style="color: white; font-size: 1.5rem; font-weight: bold;">Envoyer</span></button>
                             </form>
                         </div>
                     </div>
@@ -119,24 +120,32 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div>
-                        <h3>Suivez-nous</h3>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                        <div>
+                            <h3 class="mt-5 footer_titre">Suivez-nous</h3>
+                        </div>
+                        <div class="mb-4">
+                            <a href="#"><i class="fab fa-facebook icones"></i></a>
+                            <a href="#"><i class="fab fa-youtube icones"></i></a>
+                            <a href="#"><i class="fab fa-twitter-square icones"></i></a>
+                            <a href="#"><i class="fab fa-instagram icones"></i></a>
+                        </div>
+                        <hr width="100%">
                     </div>
-                    <div>
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-youtube"></i>
-                        <i class="fab fa-twitter-square"></i>
-                        <i class="fab fa-instagram"></i>
+                    <div class="d-flex justify-content-between w-100">
+                        <div class="d-flex">
+                            <img src="./media/logo_footer.svg" alt="" class="logo_footer">
+                            <p class="mt-4 ml-1"><span style="color: white;">MOCK UP</span></p>
+                        </div>
+                            <ul class="d-flex mt-4">
+                                <li class="liste_after"><a href="" class="link_footer">Conditions Générales de Ventes</a></li>
+                                <li class="liste_after"><a href="" class="link_footer">Politique de Confidentialités</a></li>
+                                <li><a href="" class="link_footer padding_right_link_footer">A propos de nous</a></li>
+                            </ul>
                     </div>
-                    <div>
-                        <img src="" alt="">
-                        <ul>
-                            <li><a href="">Conditions Générales de Ventes</a></li>
-                            <li><a href="">Politique de Confidentialités</a></li>
-                            <li><a href="">A propos de nous</a></li>
-                        </ul>
+                    <div class="d-flex justify-content-end col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mb-4">
+                        <button class="button_assistance btn"><span style="color: white;"><i class="fi fi-question fi-spin"></i> Assistance</span></button>
                     </div>
-                    <button class="btn">Assistance</button>
                 </div>
             </div>
         </div>
