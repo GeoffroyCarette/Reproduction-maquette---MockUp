@@ -47,3 +47,108 @@ nav {
 .icone_size {
     width: 15%;
 }
+
+#newsletter {
+    background-color: #006cab;
+}
+
+.titre_news{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.news_texte {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.mail_input_style {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: solid 3px;
+    border-color: white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    
+}
+
+.mail_input_style::placeholder {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding-left: 15%;
+}
+
+.submit_arrow_style {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: solid 3px;
+    border-color: white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 50px;
+    margin-left: -5px;
+}
+
+
+.submit_arrow_style:hover {
+    cursor: pointer;
+}
+
+input[type=mail], [type=text]{
+    color: white!important;
+}
+
+#formulaire {
+    background-color: #414345;
+}
+
+.style_submit_button {
+    margin-left: 12.5%;
+    background-color: #006cab;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.342);
+    border: none;
+    height: 60px;
+}
+
+.style_submit_button:hover {
+    cursor: pointer;
+    transition: 0.15s;
+    box-shadow: none;
+}
+
+.form_style {
+    height: 80px;
+    background-color: transparent;
+    border: solid 3px;
+}
+
+.form_style::placeholder {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-left: 3%;
+}
+
+.form_style_textarea {
+    height: 250px;
+    background-color: transparent;
+    border: solid 3px;
+}
+
+.form_style_textarea::placeholder {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-left: 3%;
+}
+
+.titre_form {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}

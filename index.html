@@ -9,6 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Snack Bar | MockUp</title>
 </head>
@@ -45,34 +46,32 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <div class="col d-flex">
-                            <div class="force">
-                                    <img src="./media/dumbbell-solid.svg" alt="" class="icone_size">
-                                <h2>Décuple ta force</h2>
-                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
-                                    sa
-                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
-                                    tes
-                                    performances !</p>
-                            </div>
-                            <div class="naturel">
-                                    <img src="./media/globe-africa-solid.svg" alt="" class="icone_size">
-                                <h2>100% Naturel</h2>
-                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
-                                    sa
-                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
-                                    tes
-                                    performances !</p>
-                            </div>
-                            <div class="sucre">
-                                    <img src="./media/no_sugar.svg" alt="" class="icone_size">
-                                <h2>Sans sucre</h2>
-                                <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
-                                    sa
-                                    nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
-                                    tes
-                                    performances !</p>
-                            </div>
+                        <div class="force col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+                            <img src="./media/dumbbell-solid.svg" alt="" class="icone_size d-block mx-auto w-50 mt-5 mb-5">
+                            <h2>Décuple ta force</h2>
+                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                sa
+                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                tes
+                                performances !</p>
+                        </div>
+                        <div class="naturel col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+                            <img src="./media/globe-africa-solid.svg" alt="" class="icone_size d-block mx-auto w-50 mt-5 mb-5">
+                            <h2>100% Naturel</h2>
+                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                sa
+                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                tes
+                                performances !</p>
+                        </div>
+                        <div class="sucre col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 text-center">
+                            <img src="./media/no_sugar.svg" alt="" class="icone_size d-block mx-auto w-50 mt-5 mb-5">
+                            <h2>Sans sucre</h2>
+                            <p>La nouvelle barre Mock Up est d'une puissance inégalée pour tes entraînements. Avec
+                                sa
+                                nouvelle formule pré-entraînement offrant une triple action de pointe pour booster
+                                tes
+                                performances !</p>
                         </div>
                     </div>
                 </div>
@@ -80,14 +79,16 @@
         </section>
         <section id="newsletter">
             <div class="container-fluid">
-                <div class="container">
+                <div class="container mt-5">
                     <div class="row">
-                        <div class="newsletter">
-                            <h3>Inscrivez-vous à la Newsletter</h3>
-                            <p>Des offres spéciales, des tests de produits et de nombreuses informations utiles vous
+                        <div class="newsletter col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                            <h3 class="mt-4 mb-4 titre_news">Inscrivez-vous à la <span style="font-weight: bold; color: white;">Newsletter</span></h3>
+                            <p class="mb-4 news_texte w-75 mx-auto">Des offres spéciales, des tests de produits et de nombreuses
+                                informations utiles vous
                                 attendent pour que vous puissiez profiter au maximum de vous-même.</p>
-                            <form action="">
-                                <input type="mail" placeholder="@Adresse Electronique">
+                            <form action="" class="mb-5">
+                                <input type="mail" placeholder="@Adresse Electronique" class="mail_input_style w-50">
+                                <button type="submit" class="submit_arrow_style"><i class="fi fi-angle-right"></i></button>
                             </form>
                         </div>
                     </div>
@@ -98,12 +99,17 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="row">
-                        <form action="">
-                            <input type="text" placeholder="Votre nom*">
-                            <input type="mail" placeholder="Votre email*">
-                            <input type="text" placeholder="Votre message*">
-                            <button type="submit">Envoyer</button>
-                        </form>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <h3 class="mt-5 mb-4 text-center titre_form">Contact</h3>
+                            <form action="">
+                                <div class="d-flex flex-column align-items-center">
+                                    <input type="text" placeholder="Votre nom*" class="w-75 mb-4 form_style">
+                                    <input type="mail" placeholder="Votre email*" class="w-75 mb-4 form_style">
+                                    <input type="text" placeholder="Votre message*" class="w-75 mb-4 form_style_textarea">
+                                </div>
+                                <button type="submit" class="w-25 mb-5 style_submit_button"><span style="color: white; font-size: 1.5rem; font-weight: bold;">Envoyer</span></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
